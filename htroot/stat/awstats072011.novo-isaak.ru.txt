@@ -1,0 +1,750 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201107 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.novo-isaak.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2663                
+POS_VISITOR 19405               
+POS_DAY 24005               
+POS_DOMAIN 3579                
+POS_LOGIN 3814                
+POS_ROBOT 4044                
+POS_WORMS 4733                
+POS_EMAILSENDER 4864                
+POS_EMAILRECEIVER 5007                
+POS_SESSION 24844               
+POS_SIDER 25055               
+POS_FILETYPES 5142                
+POS_DOWNLOADS 5433                
+POS_OS 7682                
+POS_BROWSER 7858                
+POS_SCREENSIZE 8426                
+POS_UNKNOWNREFERER 8500                
+POS_UNKNOWNREFERERBROWSER 8668                
+POS_ORIGIN 8831                
+POS_SEREFERRALS 8976                
+POS_PAGEREFS 9158                
+POS_SEARCHWORDS 9699                
+POS_KEYWORDS 11538               
+POS_MISC 2326                
+POS_ERRORS 13193               
+POS_CLUSTER 3670                
+POS_SIDER_404 13357               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110801022016 1 0 35796733656
+FirstTime 20110701005815
+LastTime 20110731231855
+LastUpdate 20110802001845 1 0 0 0 0
+TotalVisits 167                 
+TotalUnique 90                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 121                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 98 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 106 639 16874528 102 160 1007274
+1 75 312 13959533 177 232 1702133
+2 11 11 38269 78 121 840155
+3 12 84 2351793 35 93 1552554
+4 1 1 2787 95 168 4167388
+5 2 8 213700 61 106 3498412
+6 0 0 0 33 75 1083098
+7 17 141 1726023 59 110 1789308
+8 1 17 341945 33 126 2886777
+9 571 1639 6937704 153 281 1998471
+10 915 2026 14227310 114 183 1680260
+11 851 1964 10556815 101 155 2007563
+12 959 2626 18514296 84 204 1467503
+13 475 1813 20091808 63 209 1090012
+14 309 1518 21385679 61 132 4641168
+15 152 584 7156910 48 120 969608
+16 185 849 35116789 54 135 1162768
+17 269 714 20849688 93 216 9486042
+18 75 443 13184323 95 137 1274344
+19 35 197 8825203 101 153 2257094
+20 79 581 16641934 44 133 2336199
+21 119 323 7444586 93 177 2620229
+22 156 560 13702351 104 176 1785996
+23 67 433 10379046 48 105 945905
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5442 17483 247588494
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 2
+admin 0 9 2919184 20110719132943
+novo-isaak.ru 0 11 3341140 20110725124317
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+yandex 708 8489464 20110731233024 0
+googlebot 493 23033627 20110731230307 0
+slurp 219 5291453 20110730124322 0
+robot 170 135113 20110723074914 0
+java\/[0-9] 140 1503365 20110729014728 0
+mail\.ru 62 2810752 20110724195232 0
+bot[\s_+:,\.\;\/\\-] 56 817901 20110731015343 0
+[\s_+:,\.\;\/\\-]bot 40 370810 20110730140239 0
+wget 35 7228860 20110723175831 0
+crawl 31 251752 20110731041109 0
+no_user_agent 5 24536 20110726111910 0
+favicon 1 8636 20110729180328 0
+discovery 13 15900 20110719150232 0
+larbin 1 8146 20110724090346 0
+netcraft 1 7952 20110704022339 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 1244 1023721 0 0
+png 1058 2416464 0 0
+pdf 180 61264096 0 0
+htm 1 1750 0 0
+php 3475 3875853 0 0
+html 1685 6241523 0 0
+jpg 3183 124740200 0 0
+shtml 281 827307 0 0
+js 1587 9792216 0 0
+rtf 24 7662155 0 0
+gif 4765 29743209 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 55
+/images/map_by_walk.pdf 39 15 16080500
+/images/map_by_car.pdf 25 3 6222325
+/images/stat.pdf 21 27 34373339
+/images/doc_pass/dogovor.rtf 13 0 6042829
+/images/dogovor.pdf 12 1 3222107
+/images/plans/1stFloor_rus.pdf 12 5 2124913
+/images/plans/2-4_Floors_rus.pdf 9 1 3048772
+/images/plans/3-5_Floors_rus.pdf 9 0 2594102
+/images/plans/8H_rus.pdf 9 0 1164123
+/images/plans/21H_22H_rus.pdf 9 0 1292049
+/images/plans/19H_rus.pdf 9 0 1009629
+/images/plans/13H_rus.pdf 9 3 1206867
+/images/akt.pdf 8 1 560284
+/images/plans/Podval_rus.pdf 8 0 672952
+/images/plans/20H_rus.pdf 8 0 1133704
+/images/plans/15H_rus.pdf 8 0 1016176
+/images/plans/2ndFloor_rus.pdf 7 0 970585
+/images/plans/16H_rus.pdf 7 0 928613
+/images/plans/3rdFloor_rus.pdf 7 0 943467
+/images/plans/18H_rus.pdf 7 0 858340
+/images/plans/23H_rus.pdf 7 0 818363
+/images/plans/2-4_Floors_eng.pdf 6 0 2304658
+/images/dogovor.rtf 6 0 1394784
+/images/doc_pass/akt.rtf 6 0 145515
+/images/plans/17H_rus.pdf 6 0 657006
+/images/plans/8H_eng.pdf 5 0 813680
+/images/akt.rtf 5 1 79027
+/images/plans/14H_rus.pdf 5 0 565700
+/images/plans/1stFloor_eng.pdf 5 0 821995
+/images/plans/13H_eng.pdf 5 0 796035
+/images/plans/2ndFloor_eng.pdf 5 0 834080
+/images/plans/Podval_eng.pdf 5 0 725940
+/images/plans/21H_22H_eng.pdf 4 0 702816
+/images/plans/19H_eng.pdf 4 0 587024
+/images/plans/3rdFloor_eng.pdf 4 0 665748
+/images/plans/16H_eng.pdf 4 0 656420
+/images/plans/20H_eng.pdf 4 0 687584
+/images/plans/23H_eng.pdf 4 0 604368
+/images/plans/15H_eng.pdf 4 0 645532
+/images/plans/3-5_Floors_eng.pdf 4 0 1582184
+/images/plans/17H_eng.pdf 4 0 576016
+/images/plans/18H_eng.pdf 4 0 625544
+/images/plans/8H_new_color_rus.pdf 2 0 258694
+/images/plans/14H_eng.pdf 2 0 296644
+/images/plans/23H_new_color_rus.pdf 1 0 116909
+/images/plans/Podval_new_color_rus.pdf 1 0 84119
+/images/plans/15H_new_color_rus.pdf 1 0 127022
+/images/plans/13H_new_color_rus.pdf 1 0 118924
+/images/plans/20H_new_color_rus.pdf 1 0 141713
+/images/plans/19H_new_color_rus.pdf 1 0 112181
+/images/doc_pass/akt.pdf 1 0 71980
+/images/plans/21H_22H_new_color_rus.pdf 1 0 143561
+/images/plans/18H_new_color_rus.pdf 1 0 122620
+/images/plans/17H_new_color_rus.pdf 1 0 109501
+/images/plans/16H_new_color_rus.pdf 1 0 132659
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+winlong 559
+winxp 15095
+win98 4
+linuxubuntu 102
+linux 28
+win7 1423
+macosx 141
+winme 1
+winunknown 12
+linuxcentos 171
+win2003 1
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 32
+firefox3.0.1.5 1
+msie6.0 546
+firefox5.0 9231
+opera9.50 1
+firefox4.0.1 16
+chrome12.0.742.100 66
+firefox3.0 21
+firefox3.0.1 1
+safari2.0.4 12
+chrome13.0.761.0 3
+firefox3.6.4 3
+chrome12.0.742.112 473
+chrome0.4.154.25 1
+opera9.80 952
+chrome12.0.742.122 185
+firefox3.6.15 171
+msie8.0 4330
+firefox2.0.0.11 62
+chrome14.0.827.0 86
+mozilla 46
+msie7.0 153
+firefox3.6.18 143
+firefox3.6.12 15
+firefox2.0 284
+chrome14.0.788.0 16
+msie9.0 672
+firefox1.5 1
+firefox3.0.19 14
+chrome11.0.696 13
+Unknown 3
+firefox3.0.8 18
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Sparrow/1.0_(_http://www.wisecat.ru/sparrow) 20110720223927
+Agent 20110720222812
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Sparrow/1.0_(_http://www.wisecat.ru/sparrow) 20110720223927
+Agent 20110720222812
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 331 541
+From1 1 1
+From2 37 39
+From3 15 43
+From4 5058 16916
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 10 12
+rambler 1 1
+yandex 26 26
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://www.superjob.ru/clients/lopuhino-717724.html 7 7
+http://webmeh.ru/2011/novo-isaakievskij/ 3 3
+http://e.mail.ru/cgi-bin/msglist 2 2
+http://http://kursnazavtra.info/posts.php 1 1
+http://commerce.milushkina.ru 1 1
+http://commerce.milushkina.ru/commerce2.html 1 1
+http://mail.novo-isaak.ru/style.css 0 5
+http://mail.novo-isaak.ru 0 7
+http://translate.googleusercontent.com/translate_c 0 16
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 21
+%e8%f1%e0%e0%ea%e8%e5%e2%f1%ea%e8%e9 4
+%d0%bd%d0%be%d0%b2%d0%be%d0%b8%d1%81%d0%b0%d0%b0%d0%ba%d0%b8%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 3
+novo-isaak.ru 3
+%d1%80%d1%83%d0%b4%d1%83%d1%85%d0%b8%d0%bd%d0%b0 2
+%e0%e4%ec%e8%f0%e0%eb%f2%e5%e9%f1%ea%e8%e9 2
+novo+isaak+ru 2
+www.novo-isaak.ru 2
+%e5%f1%eb%e8+%e2+%f0%e0%e7%e4%e5%eb%e5+%d1%e2%ee%e1%ee%e4%ed%fb%e5 1
+conject 1
+tbricks+%d1%84%d0%b8%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%be%d0%b2%d0%b0 1
+%f1%f5%e5%ec%e0+%f3%eb%e8%f6%fb+%ff%ea%f3%e1%ee%e2%e8%f7%e0+%e4+20+%e2+%f1-%ef%e5%f2%e5%f0%e1%f3%f0%e3%e5 1
+%d1%80%d1%83%d0%b4%d1%83%d1%85%d0%b8%d0%bd%d0%b0+%d0%b8%d1%80%d0%b8%d0%bd%d0%b0 1
+%d0%bd%d0%be%d0%b2%d0%be-%d0%b8%d1%81%d0%b0%d0%b0%d0%ba%d0%b8%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%ba%d0%b0%d1%84%d0%b5+%d0%be%d0%b4%d0%b5%d0%be%d0%bd+%d1%8f%d0%ba%d1%83%d0%b1%d0%be%d0%b2%d0%b8%d1%87%d0%b0 1
+%d0%98%d1%80%d0%b8%d0%bd%d0%b0+%d0%a0%d1%83%d0%b4%d1%83%d1%85%d0%b8%d0%bd%d0%b0+%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%8e%d1%89%d0%b0%d1%8f 1
+%d0%b8%d1%80%d0%b8%d0%bd%d0%b0+%d1%80%d1%83%d0%b4%d1%83%d1%85%d0%b8%d0%bd%d0%b0 1
+h%d0%b0%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8%d0%bd%d0%b0+c%d0%b2%d0%b5%d1%82%d0%bb%d0%b0%d0%bd%d0%b0+%d0%b0%d1%80%d1%85%d0%b8%d1%82%d0%b5%d0%ba%d1%82%d0%be%d1%80 1
+%d0%a1%d0%b0%d1%80%d0%b5%d0%bf%d1%82%d0%b0 1
+%d0%bd%d0%b0%d1%88%d0%b8+%d0%b0%d1%80%d0%b5%d0%bd%d0%b4%d0%b0%d1%82%d0%be%d1%80%d1%8b 1
+%d0%a1%d0%b0%d1%80%d0%b5%d0%bf%d1%82%d1%81%d0%ba%d0%be%d0%b5+%d0%be%d0%b1%d1%89%d0%b5%d1%81%d1%82%d0%b2%d0%be 1
+%d0%9e%d1%84%d0%b8%d1%81%d1%8b+%d0%b2+%d0%9d%d0%be%d0%b2%d0%be-%d0%98%d1%81%d0%b0%d0%b0%d0%bai%d0%b5%d0%b2%d1%81%d0%bai%d0%b9+%d0%a1%d0%b0%d0%bd%d0%ba%d1%82-%d0%9f%d0%b5%d1%82%d0%b5%d1%80%d0%b1%d1%83%d1%80%d0%b3 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 42
+%d1%80%d1%83%d0%b4%d1%83%d1%85%d0%b8%d0%bd%d0%b0 4
+%e8%f1%e0%e0%ea%e8%e5%e2%f1%ea%e8%e9 4
+%d0%bd%d0%be%d0%b2%d0%be%d0%b8%d1%81%d0%b0%d0%b0%d0%ba%d0%b8%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 3
+novo-isaak.ru 3
+isaak 2
+%e0%e4%ec%e8%f0%e0%eb%f2%e5%e9%f1%ea%e8%e9 2
+novo 2
+%d0%b8%d1%80%d0%b8%d0%bd%d0%b0 2
+%e2 2
+ru 2
+%d0%a1%d0%b0%d0%bd%d0%ba%d1%82-%d0%9f%d0%b5%d1%82%d0%b5%d1%80%d0%b1%d1%83%d1%80%d0%b3 1
+h%d0%b0%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8%d0%bd%d0%b0 1
+%d0%b0%d1%80%d0%b5%d0%bd%d0%b4%d0%b0%d1%82%d0%be%d1%80%d1%8b 1
+%d0%a0%d1%83%d0%b4%d1%83%d1%85%d0%b8%d0%bd%d0%b0 1
+%d0%98%d1%80%d0%b8%d0%bd%d0%b0 1
+%d0%bd%d0%be%d0%b2%d0%be-%d0%b8%d1%81%d0%b0%d0%b0%d0%ba%d0%b8%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%9e%d1%84%d0%b8%d1%81%d1%8b 1
+%d1%84%d0%b8%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%be%d0%b2%d0%b0 1
+%d0%9d%d0%be%d0%b2%d0%be-%d0%98%d1%81%d0%b0%d0%b0%d0%bai%d0%b5%d0%b2%d1%81%d0%bai%d0%b9 1
+%d0%be%d0%b4%d0%b5%d0%be%d0%bd 1
+%d0%a1%d0%b0%d1%80%d0%b5%d0%bf%d1%82%d1%81%d0%ba%d0%be%d0%b5 1
+%d0%b2 1
+20 1
+%d0%a1%d0%b0%d1%80%d0%b5%d0%bf%d1%82%d0%b0 1
+%f1-%ef%e5%f2%e5%f0%e1%f3%f0%e3%e5 1
+tbricks 1
+%d1%e2%ee%e1%ee%e4%ed%fb%e5 1
+%ff%ea%f3%e1%ee%e2%e8%f7%e0 1
+conject 1
+%d1%8f%d0%ba%d1%83%d0%b1%d0%be%d0%b2%d0%b8%d1%87%d0%b0 1
+%d0%b0%d1%80%d1%85%d0%b8%d1%82%d0%b5%d0%ba%d1%82%d0%be%d1%80 1
+www.novo-isaak.ru 2
+%e4 1
+%d0%bd%d0%b0%d1%88%d0%b8 1
+c%d0%b2%d0%b5%d1%82%d0%bb%d0%b0%d0%bd%d0%b0 1
+%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%8e%d1%89%d0%b0%d1%8f 1
+%f3%eb%e8%f6%fb 1
+%d0%ba%d0%b0%d1%84%d0%b5 1
+%f0%e0%e7%e4%e5%eb%e5 1
+%e5%f1%eb%e8 1
+%f1%f5%e5%ec%e0 1
+%d0%be%d0%b1%d1%89%d0%b5%d1%81%d1%82%d0%b2%d0%be 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+401 65 143646
+403 2 2792
+302 604 10540
+206 3 345335
+500 7 9982
+404 709 3589899
+301 2 502
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 113
+/]} 4 -
+/robots.txt 360 -
+/assets/galleries/26/image_interer00013.jpg 1 -
+/eng/news/span.plus 1 http://novo-isaak.ru/eng/news/58.html
+/assets/galleries/8/tn_image_fasad00001.jpg 3 -
+/ru/photogallery/.image.jpg 1 http://novo-isaak.ru/ru/photogallery/8.html
+/assets/galleries/8/tn_1image_fasad00010.jpg 2 -
+/assets/galleries/26/tn_image_interer00002.jpg 1 -
+/images/akt.pdf 2 -
+/images/plans/Podval_new_color_eng.pdf 1 http://www.novo-isaak.ru/eng/info.html
+/eng/ 3 http://novo-isaak.ru/eng/index.html
+/assets/galleries/54/tn_image_interer00003.jpg 2 -
+/,data:b,complete:function(a,b,e){e=a.responseText,a.isResolved()&&(a.done(function(a){e=a}),h.html(f 4 -
+/assets/galleries/54/image_interer00008.jpg 2 -
+/_vti_inf.html 1 -
+/history.html 7 -
+/ru/photogallery/images/loading.gif 1 http://novo-isaak.ru/ru/photogallery/8.html
+/images/doc_pass/dogovor.rtf 10 http://novo-isaak.ru/ru/info.html
+/eng/photogallery/DD_belatedPNG.js 1 http://novo-isaak.ru/eng/photogallery/52.html
+/assets/galleries/54/tn_image_interer00011.jpg 2 -
+/eng/history/images/history-1.gif 2 -
+/eng/DD_belatedPNG.js 5 -
+/images/dogovor.pdf 6 http://www.novo-isaak.ru/eng/info.html
+/assets/galleries/26/tn_image_interer00013.jpg 1 -
+/gi,by=/^( 1 http://novo-isaak.ru/
+/assets/galleries/54/tn_image_interer00016.jpg 2 -
+/ru/photogallery/thumbnail.jpg 1 http://novo-isaak.ru/ru/photogallery/8.html
+/ru/DD_belatedPNG.js 13 -
+/ru/photogallery/assets/snippets/maxigallery/lightboxv2/images/loading.gif 1 http://novo-isaak.ru/ru/photogallery/8.html
+/37/1.html 1 -
+/assets/galleries/26/image_interer00009.jpg 1 -
+/assets/images/topimg/header-image. 2 http://www.novo-isaak.ru/manager/index.php
+/assets/galleries/26/image_interer00015.jpg 1 -
+/ru/span.plus 1 http://novo-isaak.ru/ru/contacts.html
+/assets/galleries/8/tn_image_fasad00006.jpg 2 -
+/ru/photogallery/span.plus 1 http://novo-isaak.ru/ru/photogallery/8.html
+/assets/galleries/26/tn_image_interer00007.jpg 1 -
+/news/31.html 1 -
+/assets/galleries/26/tn_image_interer00009.jpg 1 -
+/assets/galleries/8/tn_image_fasad00003.jpg 3 -
+/assets/galleries/54/tn_image_interer00008.jpg 2 -
+/ru/ 3 http://novo-isaak.ru/ru/contacts.html
+/span.plus 1 http://novo-isaak.ru/
+/gi,by=/DD_belatedPNG.js 1 http://novo-isaak.ru/gi,by=/^(
+/assets/galleries/8/image_fasad00003.jpg 4 -
+/assets/images/topimg/head 1 http://www.novo-isaak.ru/manager/index.php
+/eng/history/images/history-2.gif 2 -
+/a 1 http://novo-isaak.ru/
+/ru/news/DD_belatedPNG.js 4 http://novo-isaak.ru/ru/news/32.html
+/eng/span.plus 1 http://novo-isaak.ru/eng/index.html
+/assets/galleries/8/1image_fasad00010.jpg 3 -
+/wp-login.php 1 -
+/assets/images/topimg/header-i 1 http://www.novo-isaak.ru/manager/index.php
+/ru/history/span.plus 1 http://novo-isaak.ru/ru/history/10.html
+/assets/galleries/8/tn_image_fasad00011.jpg 3 -
+/eng/news/DD_belatedPNG.js 1 http://novo-isaak.ru/eng/news/58.html
+/assets/galleries/8/tn_image_fasad00002.jpg 3 -
+/misc/drupal.js 1 -
+/photogallery/26.html 1 -
+/eng/history/span.plus 1 http://novo-isaak.ru/eng/history/42.html
+/news/30.html 1 -
+/assets/galleries/8/tn_image_fasad00007.jpg 3 -
+/assets/galleries/8/image_fasad00011.jpg 3 -
+/location.html 5 -
+/assets/images/topimg/header 2 http://www.novo-isaak.ru/manager/index.php
+/_vti_bin/shtml.exe/_vti_rpc 1 -
+/ru/news/span.plus 1 http://novo-isaak.ru/ru/news/32.html
+/news/20.html 1 -
+/assets/galleries/54/image_interer00013.jpg 1 -
+/eng.html 1 -
+/holders.html 3 -
+/history/12.html 1 -
+/assets/galleries/8/image_fasad00002.jpg 3 -
+/assets/galleries/26/tn_image_interer00015.jpg 1 -
+/assets/galleries/26/image_interer00002.jpg 1 -
+/ru/photogallery/DD_belatedPNG.js 11 http://novo-isaak.ru/ru/photogallery/8.html
+/index.html 103 -
+/gi,by=/span.plus 1 http://novo-isaak.ru/gi,by=/^(
+/assets/galleries/54/image_interer00003.jpg 2 -
+/contacts.html 5 -
+/ru/history/DD_belatedPNG.js 8 http://novo-isaak.ru/ru/history/12.html
+/eng/history/DD_belatedPNG.js 1 http://novo-isaak.ru/eng/history/42.html
+/eng/photogallery/span.plus 1 http://novo-isaak.ru/eng/photogallery/52.html
+/assets/images/topimg/h 3 http://www.novo-isaak.ru/manager/index.php
+/assets/galleries/26/tn_image_interer00010.jpg 1 -
+/assets/galleries/26/image_interer00010.jpg 1 -
+/ru/photogallery/assets/snippets/maxigallery/lightboxv2/images/closelabel.gif 1 http://novo-isaak.ru/ru/photogallery/8.html
+/assets/galleries/8/image_fasad00007.jpg 3 -
+/assets/images/topimg/hea 1 http://www.novo-isaak.ru/manager/index.php
+/ru/photogallery/images/close.gif 1 http://novo-isaak.ru/ru/photogallery/8.html
+/doc_pass/dogovor.rtf 2 http://www.novo-isaak.ru/eng/info.html
+/assets/images/topimg/header-image.gi 2 http://www.novo-isaak.ru/manager/index.php
+/assets/galleries/8/image_fasad00004.jpg 3 -
+/assets/galleries/8/tn_image_fasad00004.jpg 3 -
+/images/doc_pass/akt.rtf 2 http://novo-isaak.ru/ru/info.html
+/info.html 4 -
+/assets/images/topimg/heade 1 http://www.novo-isaak.ru/manager/index.php
+/assets/galleries/54/image_interer00007.jpg 1 -
+/assets/images/topimg/he 2 http://www.novo-isaak.ru/manager/index.php
+/assets/images/topimg/header- 1 http://www.novo-isaak.ru/manager/index.php
+/assets/images/topimg/header-imag 2 http://www.novo-isaak.ru/manager/index.php
+/assets/images/topimg/header-im 2 http://www.novo-isaak.ru/manager/index.php
+/photogallery.html 6 -
+/assets/galleries/8/image_fasad00006.jpg 2 -
+/assets/galleries/8/image_fasad00001.jpg 3 -
+/assets/images/topimg/bg-image-.jpg 1 http://www.novo-isaak.ru/manager/index.php
+/assets/galleries/54/image_interer00016.jpg 2 -
+/news.html 1 -
+/assets/galleries/54/image_interer00011.jpg 2 -
+/assets/galleries/26/tn_image_interer00003.jpg 1 -
+/netcat/admin/js/netcat_highlight.js 1 -
+/assets/galleries/26/image_interer00007.jpg 1 -
+/ru/images/pdf.gif 1 http://www.novo-isaak.ru/ru/info.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 121
+213.221.56.254 4166 10078 28406763 20110729121800
+178.130.1.8 362 2626 62544937 20110727112910
+88.97.37.22 137 311 16465270 20110714164204
+188.134.6.55 95 297 3808476 20110726233209
+178.163.25.47 63 284 14321528 20110711231708
+95.158.205.209 60 115 1516920 20110714123101
+109.148.149.39 52 236 6489259 20110726003323
+68.238.243.19 45 50 2577399 20110710213437
+84.12.178.162 43 78 7586258 20110723175841
+195.218.239.226 30 191 6476727 20110725191849
+95.220.167.250 1 1 3045 20110727200436
+64.124.203.71 0 1 116909 
+213.172.6.227 16 136 3420695 20110729182227
+208.50.101.158 0 1 248893 
+64.124.203.77 0 1 71980 
+178.252.92.70 1 19 367572 20110726233920
+80.40.134.103 21 21 166693 20110723175910
+212.232.66.66 2 42 2116331 20110719220000
+109.145.159.207 4 29 991326 20110721004053
+217.195.74.4 1 17 341945 20110705080201
+209.85.226.85 1 2 5686 20110703201704
+209.85.228.84 0 2 43119 
+194.186.219.71 5 71 2424953 20110726115304
+94.180.139.46 1 5 110069 20110715031347
+80.40.134.104 17 17 155113 20110723175908
+209.85.228.85 0 2 17606 
+83.242.224.130 3 63 2801350 20110725162644
+90.237.133.130 2 50 339247 20110702001544
+176.14.25.115 0 13 406430 
+208.50.101.157 0 1 311334 
+188.134.44.201 6 91 3498952 20110725202240
+209.85.228.82 0 1 163 
+208.50.101.155 0 1 294779 
+91.122.107.37 8 75 2257285 20110725165425
+74.217.148.78 0 2 1420017 
+94.19.87.190 3 29 499127 20110711014008
+95.221.100.226 1 4 106850 20110701222350
+209.85.228.87 0 2 37524 
+95.55.159.20 4 56 55453 20110714070334
+46.72.155.86 0 1 322549 
+79.137.201.45 1 1 7950 20110716024218
+83.242.228.66 12 83 1666923 20110713162903
+188.134.35.158 5 33 750009 20110729112800
+209.85.228.86 0 1 897 
+95.158.200.40 17 102 4567088 20110705234930
+89.178.142.30 0 2 84623 
+77.239.247.218 4 64 916543 20110713142602
+86.178.130.218 3 47 877039 20110718002401
+89.149.242.27 1 1 2787 20110721042901
+92.101.121.34 4 37 347882 20110714232524
+178.71.96.95 9 82 750156 20110731231855
+176.14.185.42 1 14 513697 20110702152217
+84.204.249.12 17 129 3652463 20110723070740
+62.192.233.239 1 16 427440 20110707162826
+89.104.108.43 1 14 658169 20110729093521
+97.74.144.104 1 1 8146 20110723033811
+66.249.82.129 1 1 4368 20110702001632
+64.124.203.75 0 1 129347 
+217.66.152.10 2 14 411625 20110723105913
+46.4.234.46 1 1 7950 20110713103029
+82.140.78.21 1 13 408938 20110704172435
+91.122.64.236 0 22 644477 
+62.141.119.74 1 15 459903 20110719160004
+130.82.1.40 3 19 449109 20110704155019
+195.191.146.10 1 16 426448 20110717235517
+74.217.148.74 0 2 246962 
+95.26.86.225 1 4 107609 20110726123806
+95.158.206.179 12 65 879536 20110712205859
+217.119.31.74 3 46 473071 20110713104755
+77.241.45.58 7 33 760124 20110721004929
+93.185.30.211 12 117 5068135 20110725182637
+81.211.105.130 1 17 341945 20110713130019
+213.168.46.58 5 58 1355178 20110721202946
+178.123.42.148 10 78 2233578 20110713035530
+46.254.17.153 2 2 8146 20110722092837
+64.124.203.72 0 1 285072 
+208.50.101.151 0 1 122620 
+109.205.248.206 2 20 450593 20110721124657
+178.64.14.135 10 25 489446 20110714134812
+188.134.64.246 2 2 16292 20110720222812
+217.118.78.125 1 17 350779 20110706003311
+74.217.148.76 0 1 128963 
+80.70.227.40 6 66 605520 20110705015338
+188.122.225.67 1 1 7950 20110709125926
+74.217.148.75 0 1 109501 
+95.26.236.110 1 4 106850 20110701051845
+178.140.19.183 1 16 335180 20110729213558
+95.25.147.128 1 4 106850 20110701005815
+193.169.234.254 3 3 0 20110708213044
+188.134.61.0 25 73 2905626 20110713132013
+92.113.137.134 2 2 7094 20110712175630
+209.85.226.87 0 1 53287 
+62.149.1.75 1 1 2725 20110701190718
+50.47.88.28 0 1 322549 
+188.232.167.246 1 14 409072 20110722124855
+92.101.43.50 2 18 549230 20110705150627
+95.25.111.189 1 4 106850 20110701051137
+95.158.207.68 4 43 2148260 20110706232051
+95.220.158.205 0 1 54 
+74.217.148.71 0 1 322549 
+95.26.208.203 1 2 19910 20110709134534
+95.24.142.106 1 5 110336 20110722104037
+81.211.107.70 26 273 11343919 20110728195003
+64.124.203.76 0 1 127022 
+178.125.229.53 1 1 8146 20110720223927
+178.66.249.94 8 99 2546127 20110703104013
+208.50.101.154 0 2 381552 
+212.119.161.218 22 347 10226832 20110725170302
+209.85.226.84 0 2 250656 
+78.37.214.61 10 156 5364869 20110728203711
+74.217.148.73 0 3 364487 
+93.153.142.74 7 76 1540577 20110706001332
+93.153.233.74 2 14 411661 20110705170411
+64.124.203.78 0 1 322549 
+208.50.101.153 0 1 118924 
+176.14.233.148 1 4 106850 20110702154201
+109.205.248.208 5 30 774860 20110706104209
+94.100.189.220 1 3 35045 20110702212307
+94.24.149.124 1 12 379580 20110713120356
+188.40.160.244 1 1 7950 20110708074917
+95.158.195.19 1 13 408937 20110706135227
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110701 6 33 764950 6
+20110702 58 203 2067074 8
+20110703 11 118 2960421 3
+20110704 23 216 6428113 3
+20110705 94 495 16660122 15
+20110706 27 291 5998326 6
+20110707 1 16 427440 1
+20110708 10 120 5709533 3
+20110709 2 5 112483 2
+20110710 45 50 2577399 1
+20110711 68 333 15271100 3
+20110712 124 567 17078582 6
+20110713 89 472 16528404 14
+20110714 466 1746 30440180 12
+20110715 3 25 560516 3
+20110716 2 16 739492 2
+20110717 1 16 426448 1
+20110718 692 1603 8598737 4
+20110719 733 3644 28110165 8
+20110720 94 306 4102976 5
+20110721 277 621 8006157 9
+20110722 937 1717 14097789 9
+20110723 92 187 9379728 6
+20110725 1054 3129 40776560 11
+20110726 222 630 6003295 10
+20110727 261 413 3586253 5
+20110728 25 262 8960551 4
+20110729 16 145 2755593 6
+20110730 0 22 644477 0
+20110731 9 82 750156 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 20
+15mn-30mn 6
+0s-30s 69
+30s-2mn 19
+2mn-5mn 26
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/manager/index.php 2424 3836116 0 11
+/manager/includes/session_keepalive.php 1030 33990 0 1
+/ 240 758868 126 41
+/ru/photogallery/8.html 238 673835 2 6
+/ru/info.html 171 651260 1 16
+/ru/location.html 137 520233 2 12
+/ru/contacts.html 135 441564 2 14
+/ru/photogallery/26.html 117 404222 1 6
+/ru/holders.html 109 587305 13 23
+/ru/history/10.html 104 535222 2 6
+/manager/media/browser/mcpuk/browser.html 1 743 0 0
+/eng/news/57.html 4 19585 0 0
+/eng/photogallery/52.html 53 169160 0 1
+/manager/ 41 68439 10 0
+/manager/media/browser/mcpuk/frmupload.html 1 2331 0 0
+/ru/photogallery/9.html 70 204125 0 2
+/eng/location.html 47 163757 0 1
+/eng/history/45.html 7 30146 0 0
+/eng/news/58.html 11 33815 0 0
+/manager/media/browser/mcpuk/frmcreatefolder.html 1 1236 0 0
+/eng/holders.html 22 79257 0 0
+/assets/plugins/tinymce/jscripts/tiny_mce/plugins/table/table.htm 1 1750 0 0
+/ru/news/31.html 16 60934 0 0
+/eng/history/47.html 8 38637 0 0
+/eng/photogallery/53.html 15 61819 0 0
+/eng/history/46.html 8 30467 0 0
+/ru/history/23.html 12 68841 0 2
+/manager/media/browser/mcpuk/frmfolders.html 1 1955 0 0
+/eng/history/42.html 47 179920 0 2
+/manager/processors/login.processor.php 18 1134 0 0
+/manager/media/browser/mcpuk/connectors/php/connector.php 3 4613 0 0
+/eng/history/43.html 9 31170 0 0
+/manager/media/browser/mcpuk/frmactualfolder.html 1 812 0 0
+/eng/contacts.html 44 140764 0 1
+/ru/history/22.html 20 69402 0 0
+/ru/news/30.html 14 58043 0 1
+/eng/index.html 31 92239 0 2
+/ru/history/12.html 19 128625 7 7
+/ru/history/11.html 9 40486 1 1
+/ru/news/32.html 71 200532 0 1
+/ru/history/13.html 8 39580 0 1
+/manager/media/browser/mcpuk/frmresourcetype.html 1 995 0 0
+/ru/index.html 20 74684 0 1
+/manager/media/browser/mcpuk/frmresourceslist.html 1 2869 0 0
+/eng/info.html 51 177903 0 3
+/eng/news/56.html 4 18581 0 1
+/eng/history/44.html 13 46512 0 0
+/eng/photogallery/54.html 34 157957 0 4
+END_SIDER

@@ -1,0 +1,4 @@
+AuthName "Protected area, need authorization"
+AuthType Basic
+AuthUserFile  /home/www/z125063/novo-isaak.ru/htroot/images/doc_pass/.htpasswd
+require valid-user
